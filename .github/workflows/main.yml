@@ -19,7 +19,7 @@ jobs:
             serverchan_key: SERVERCHAN_KEY
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Working
         uses: Long0x0/zju-ncov-hitcarder@master
         with:
